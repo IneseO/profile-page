@@ -1,0 +1,156 @@
+
+body {
+background-color: grey;
+width: 1440px;
+height: 1594px;
+
+background: #CCCCCC
+}
+
+.bg-header {
+background-image: url('../images/BG-HEADER.png');
+position: absolute;
+width: 1440px;
+height: 381px;
+}
+
+#NAV-BAR {
+width: 1143px;
+height: 24px;
+float: right;
+margin-top: 36px;
+margin-right: 147px;
+margin-bottom: 321px;
+margin-left: 150px;
+}
+#NAV-BAR a{
+color: #FFFFFF;
+text-decoration: none;
+margin-left: 10px;
+}
+#NAV-BAR svg{
+vertical-align: middle
+}
+#NAV-BAR img{
+vertical-align: bottom;
+}
+.creative-tim{
+margin-right: 600px;
+width: 99px;
+height: 22px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.content{
+position: absolute;
+width: 1380px;
+height: 1274px;
+background-color: #FFFFFF;
+margin-top: 240px;
+margin-left: 30px;
+margin-right:30px;
+margin-bottom: 80px;
+}
+.profile{
+margin-right: 389px;
+margin-left: 387px;
+width: 604px;
+height: 386px;
+}
+.avatar{
+  width: 160px;
+  height: 160px;
+  margin-right: 610px;
+  margin-left: 610px;
+  margin-top: -60px;
+}
+
+h1{
+height: 30px;
+text-align: center;
+font-weight: 500;
+font-size: 25.55px;
+line-height: 30px;
+color: #3C4858;
+margin-top: -10px;
+}
+
+h2{
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+}
+
+p{
+text-align: center;
+margin right: 387px;
+position: absolute;
+width: 604px;
+height: 99px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #999999;
+}
+
+.SWF {
+  float: right;
+  margin-top: 100px;
+  vertical-align: top;
+  margin-right: 160px;
+}
+
+a{
+  color: none;
+  text-decoration: none;
+}
+
+.work{
+  margin-left: 6px;
+  margin-bottom: 40px;
+}
+
+.favorite{
+  margin-left: 6px;
+  margin-bottom: 25px;
+}
+
+.photos{
+  width: 555px;
+  height: 621px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.photos1, .photos2{
+  width:50%;
+  float:left;
+}
+
+footer{
+width: 1127px;
+height: 17px;
+}
+
+#foot-menu a{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+color: #333333;
+}
