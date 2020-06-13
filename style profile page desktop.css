@@ -8,7 +8,7 @@ background: #CCCCCC
 }
 
 .bg-header {
-background-image: url('images/BG-HEADER.png');
+background-image: url('BG-HEADER.png');
 position: absolute;
 width: 1440px;
 height: 381px;
@@ -162,7 +162,7 @@ color: #333333;
 footer p{
 position: fixed;
 height: 50px;
-width: 90%;
+width: 75%;
 bottom: 0px;
 margin-bottom: 0px;
 text-align: right;
