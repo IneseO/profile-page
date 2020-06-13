@@ -1,0 +1,15 @@
+body {
+  position: absolute;
+width: 768px;
+height: 4227px;
+
+background: #CCCCCC;
+}
+
+.BG-header{
+position: absolute;
+width: 768px;
+height: 381px;
+
+background: url('images/BG.png');
+}
