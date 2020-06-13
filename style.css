@@ -1,7 +1,7 @@
 
 
 body {
-    background-image: url('../images/bg.png');
+    background-image: url('images/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -183,4 +183,5 @@ footer p {
 font-weight: normal;
 font-size: 10px;
 margin:0;
+width: 13%;
 }

@@ -140,17 +140,30 @@ a{
   float:left;
 }
 
-footer{
+footer {
 width: 1127px;
-height: 17px;
+position: fixed;
+height: 50px;
+bottom: 0px;
+margin-bottom: 0px;
 }
 
-#foot-menu a{
+#foot-menu  a {
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 12px;
 line-height: 14px;
+margin-right: 30px;
 
 color: #333333;
+}
+
+footer p{
+position: fixed;
+height: 50px;
+width: 90%;
+bottom: 0px;
+margin-bottom: 0px;
+text-align: right;
 }
