@@ -27,6 +27,27 @@ header {
   margin:38px auto 0 auto;
 }
 
+@media screen and (max-width: 980px) {
+  #top-menu  a {
+    display:none;
+  }
+  #top-menu  svg {
+    display:none;
+  }
+  #top-menu label{
+    display: block !important;
+  }
+  #foot-menu a {
+    display: none;
+  }
+  #foot-menu label{
+    display: block !important;
+  }
+  footer p {
+    display: none;
+  }
+}
+
 #logo {
     display: inline-block;
     color: white;
@@ -35,6 +56,15 @@ header {
 #top-menu {
   float:right;
 }
+#top-menu label {
+  font-size: 26px;
+  margin: 0 40px 0 0;
+  color: white;
+  line-height: 70px;
+  display: none;
+  float:right;
+}
+
 #top-menu a{
 font-family: Roboto;
 font-style: normal;
@@ -165,6 +195,15 @@ margin:72px auto 0;
 display: flex;
 justify-content: space-between;
 }
+#foot-menu label {
+  font-size: 26px;
+  margin: 0 40px 0 0;
+  color: white;
+  line-height: 70px;
+  display: none;
+  float:right;
+}
+
 #foot-menu a, footer p {
   color:#fff;
   line-height: 14px;
