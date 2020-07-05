@@ -14,6 +14,24 @@ width: 1440px;
 height: 381px;
 }
 
+@media screen and (max-width: 980px) {
+  #NAV-BAR  a{
+    display:none;
+  }
+  #NAV-BAR label{
+    display: block !important;
+  }
+  #foot-menu a {
+    display: none;
+  }
+  #foot-menu label{
+    display: block !important;
+  }
+  footer p {
+    display: none;
+  }
+}
+
 #NAV-BAR {
 width: 1143px;
 height: 24px;
@@ -23,11 +41,22 @@ margin-right: 147px;
 margin-bottom: 321px;
 margin-left: 150px;
 }
+
+#NAV-BAR label {
+    font-size: 40px;
+    margin: 0 40px 0 0;
+    color: white;
+    line-height: 70px;
+    display: none;
+    float:right;
+  }
+
 #NAV-BAR a{
 color: #FFFFFF;
 text-decoration: none;
 margin-left: 10px;
 }
+
 #NAV-BAR svg{
 vertical-align: middle
 }
@@ -159,6 +188,14 @@ margin-left: 70px;
 color: #333333;
 }
 
+#foot-menu label {
+  font-size: 40px;
+  margin: 0 40px 0 0;
+  color: white;
+  line-height: 70px;
+  display: none;
+  float:right;
+}
 footer p{
 
 height: 50px;
